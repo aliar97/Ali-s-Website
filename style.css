@@ -3,17 +3,44 @@
     background-image: url(https://media.giphy.com/media/1lRrsraIsEYRW/giphy.gif);
     background-size: cover;
     background-position: center;    
+    margin-bottom: 0%;
 }
 
 .header {
     font-family: 'Julius Sans One', sans-serif;
     color: whitesmoke;
     text-align: center;
+    height: 300px;
+   
 }
 
+#aboutMe{
+  background-color: green;
+  padding-top: 30px;
+  color: white;
+}
 
+#mine{
+  font-family: 'Julius Sans One', sans-serif;
+}
+html{
+  background-color: green;
+}
+
+body{
+  background-color: green;
+  color: white;
+}
 .button-container {
   text-align: center;
+}
+
+.profilepic {
+  height:400px;
+  width:300px;
+  background-size: cover;
+  background-position: center; 
+  background-image: url("./imgs/photo.jpg");
 }
 
 .button {
@@ -25,6 +52,7 @@
   transition: all 0.2s ease-in;
   position: relative;
   overflow: hidden;
+
 }
 .button:before {
 
